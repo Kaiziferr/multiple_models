@@ -15,3 +15,6 @@ The weighted ensemble approach averages the predictions of several models, adjus
 
 ## OneVsRest
 The approach consists of transforming a multi-class classification problem into several binary classification problems by training a binary classifier for each class. To predict the class of a new instance, the probability or score of each classifier is calculated, and the class with the highest score is selected as the prediction.
+
+## OneVsOne
+It divides a multi-class classification into a binary classification problem for each pair of classes. Since the model is trained for each pair of classes, it can better handle class imbalances between different pairs, which can improve accuracy and the handling of minority classes.
